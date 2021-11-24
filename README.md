@@ -1,9 +1,6 @@
 # Using regular expressions in the development of UiPath
 This article describes how to use regular expression when developing processes.
 
-Using regular expressions in the development of UiPath
-
-This article describes how to use regular expression when developing processes.
 
 Regular expression (regex) is a pattern (sequence of characters and metasymbols) which corresponds (or not) to the sequence of characters in the text. As a rule, regular expressions are used to specify the rule of searching for a sequence in the text.
 
