@@ -30,10 +30,12 @@ Check if the developer has entered his age by means of regular expressions.
 
 Create a process using the "is match" activity and the "Regex.IsMatch" method.
 Let's create the changes:
+
 ![image](https://user-images.githubusercontent.com/75396764/143205664-8e60fa7b-6117-48ff-b617-2c6971f32076.png)
  
 
 The process code looks like this:
+
 ![image](https://user-images.githubusercontent.com/75396764/143205731-de6ff50e-2ce8-41a0-8959-0b69f992cd8a.png)
 
 
