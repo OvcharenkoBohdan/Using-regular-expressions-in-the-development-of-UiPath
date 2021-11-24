@@ -9,12 +9,16 @@ Regular expression (regex) is a pattern (sequence of characters and metasymbols)
 
 The service was used to check the regular visions https://regex101.com/
 
-Places of use
+                                                                           Places of use
 
 Regular expressions can be used:
+
 •	For the comparison of the corresponding values;
+
 •	In selectors;
+
 •	For changing the values;
+
 •	Data retrieval;
 
 These are the main ways of using regular expressions in UiPath. 
@@ -40,31 +44,16 @@ The process code looks like this:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Setting up the activity “Read Text File”.
+
+![image](https://user-images.githubusercontent.com/75396764/143206115-a9b7cdb4-b039-49e5-bb1f-60652a04dd73.png)
 
  
 
 Setting up the activity “Is Match”.
 
  
+![image](https://user-images.githubusercontent.com/75396764/143206128-e3873e19-e41a-4239-827e-8f3bc7f125da.png)
 
 
 
@@ -73,31 +62,24 @@ Setting up the activity “Is Match”.
 
 We also carry out the operation of assignment through activity “Assign”.
 
- 
+ ![image](https://user-images.githubusercontent.com/75396764/143206161-753417af-f6d5-45f6-a518-85af1b0d248f.png)
+
 
 The result is outputted through Boolean changes. Check the correctness of the search by running the process.
  
+ ![image](https://user-images.githubusercontent.com/75396764/143206169-a97d4a40-f531-45a7-8013-03dab8c0b4e4.png)
+
 
 As we can see - we found the necessary data for us.
 
-
-
-
-
-
-
-
-
-
-
-
-
 Let's conduct another test to check the presence of three digits with the help of the activity “Is Match”.
 
- 
+ ![image](https://user-images.githubusercontent.com/75396764/143206204-c37ba88a-45b9-424c-95d8-ea18c6b3008a.png)
+
 
 The result is unsuccessful, because there is no such text.
 
+![image](https://user-images.githubusercontent.com/75396764/143206228-4eafe75e-fcde-4d94-8b7e-b00bd281b07c.png)
  
 
 
